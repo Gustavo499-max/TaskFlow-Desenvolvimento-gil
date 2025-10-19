@@ -1,0 +1,10 @@
+fix: corrige bug na atualização de tarefas
+feat: adiciona filtro de tarefas por prioridade (mudança de escopo)
+docs: atualiza README.md com descrição, objetivo e instruções
+ci: adiciona workflow de integração contínua com Maven e testes
+test: adiciona testes JUnit para criação e atualização de tarefas
+feat: cria controlador REST para endpoints de tarefas
+feat: adiciona camada de serviço para operações CRUD
+feat: implementa repositório JPA para entidade Tarefa
+feat: cria entidade Tarefa com atributos id, título, descrição, prioridade e status
+chore: inicializa projeto Spring Boot com estrutura base
